@@ -8,4 +8,4 @@ add_executable(basic_loop basic/fahrenheit-for-loop.c basic/fahrenheit-celsius-t
 add_executable(count basic/count_characters.c basic/count_lines.c basic/copy_input_to_output.c
         basic/count_words.c)
 add_executable(function  basic/function_power.c)
-add_executable(array basic/get_max_length_line.c)
+add_executable(array basic/get_max_length_line.c basic/get_max_length_line_external_variable.c)

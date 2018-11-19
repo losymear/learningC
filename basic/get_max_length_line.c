@@ -51,7 +51,7 @@ int getline_(char s[], int lim)
 void copy(char to[], char from[]){
     int i;
     i = 0;
-    while ((to[i]=from[i])!='\n'){
+    while ((to[i]=from[i])!='\0'){
         ++i;
     }
 }
