@@ -3,6 +3,7 @@ project(learning C)
 
 set(CMAKE_C_STANDARD 99)
 include(tcpl/CMakeLists.txt)
+include(pat/CMakeLists.txt)
 
 add_executable(tmp tmp.c)
 
