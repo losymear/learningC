@@ -12,5 +12,6 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(zhongM_Code-Completion_q6-4 pat/zhongM2018/q6-4.c)
 add_executable(zhongM_Programming_q7.14 pat/zhongM2018/q7-14.c)
+add_executable(zhongM_Programming_q7.19 pat/zhongM2018/q7-19.c)
 
 
