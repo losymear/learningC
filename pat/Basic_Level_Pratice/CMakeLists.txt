@@ -12,4 +12,7 @@ add_executable(basic_1006 pat/Basic_Level_Pratice/1006.c)
 add_executable(basic_1007 pat/Basic_Level_Pratice/1007.c)
 add_executable(basic_1008 pat/Basic_Level_Pratice/1008.c)
 add_executable(basic_1009 pat/Basic_Level_Pratice/1009.c)
+add_executable(basic_1010 pat/Basic_Level_Pratice/1010.c)
+add_executable(basic_1011 pat/Basic_Level_Pratice/1011.c)
+add_executable(basic_1012 pat/Basic_Level_Pratice/1012.c)
 
