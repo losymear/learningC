@@ -1,28 +1,42 @@
+#include <stdio.h>
 
-#include<stdio.h>
-int main(){
-    int n,m;
-    scanf("%d %d",&n,&m);
-    if(m>n){
-        m=m%n;
+/**
+* @program: Basic_Level_Pratice
+* @description:
+* @author: mearlosy
+* @create: 2019-01-05 12:25
+*/
+
+
+
+
+int main() {
+    int N, M;
+    scanf("%d %d", &N, &M);
+    while (M >= N) {
+        M -= N;
     }
-    int a[n+m+1];
-    for(int i=1;i<=n;i++)
-    {
-        scanf("%d",&a[i]);
+    int arr[N];
+
+    // 初始化
+    for (int i = 0; i < N; ++i) {
+        scanf("%d", &arr[i]);
     }
-    for(int i=n+m,j=0;j<=n;j++)
-    {
-        a[i-j]=a[n-j];
+
+
+    // 打印前M个
+    for (int j = 0; j < M; ++j) {
+        printf("%d ", arr[N + j - M]);
     }
-    for(int i=1;i<=m;i++){
-        a[i]=a[n+i];
+
+    for (int k = M; k < N; ++k) {
+        if (k == N - 1) {
+            printf("%d\n", arr[k - M]);
+        } else {
+            printf("%d ", arr[k - M]);
+        }
+
     }
-    for(int i=1;i<n;i++)
-    {
-        printf("%d ",a[i]);
-    }
-    printf("%d",a[n]);
 
 
 }
