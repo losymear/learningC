@@ -1,3 +1,7 @@
+
+
+#include <stdio.h>
+
 /**
 * @program: Basic_Level_Pratice
 * @description: 
@@ -7,6 +11,6 @@
 
 
 int main() {
-    
+//    TODO: 这题需要使用struct
 }
 
