@@ -6,7 +6,13 @@
 */
 
 
+
+int compare(const void *a, const void *b);
+
 int main() {
-    
+
+    // TODO: 需要struct
+
+
 }
 
