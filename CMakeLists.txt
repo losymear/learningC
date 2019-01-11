@@ -10,3 +10,6 @@ add_executable(basic4 basic/copy_input_to_output.c)
 add_executable(basic5 basic/count_characters.c)
 add_executable(basic6 basic/count_lines.c)
 add_executable(basic7 basic/count_words.c)
+
+
+include(tcpl/CMakeLists.txt)
